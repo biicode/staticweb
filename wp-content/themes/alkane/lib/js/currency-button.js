@@ -1,0 +1,32 @@
+function changetoUSD() {
+    document.getElementById("btn-show-usd").className = "hide-currency";
+    document.getElementById("btn-show-eur").className = "show-currency";
+    document.getElementById("free-eur").className = "hide-currency";
+    document.getElementById("free-usd").className = "show-currency";
+    document.getElementById("per-eur").className = "hide-currency";
+    document.getElementById("per-usd").className = "show-currency";
+    document.getElementById("start-eur").className = "hide-currency";
+    document.getElementById("start-usd").className = "show-currency";
+    document.getElementById("team-eur").className = "hide-currency";
+    document.getElementById("team-usd").className = "show-currency";
+    document.getElementById("corp-eur").className = "hide-currency";
+    document.getElementById("corp-usd").className = "show-currency";
+    document.getElementById("nter-eur").className = "hide-currency";
+    document.getElementById("nter-usd").className = "show-currency";
+}
+function changetoEUR() {
+    document.getElementById("btn-show-usd").className = "show-currency";
+    document.getElementById("btn-show-eur").className = "hide-currency";
+    document.getElementById("free-eur").className = "show-currency";
+    document.getElementById("free-usd").className = "hide-currency";
+    document.getElementById("per-eur").className = "show-currency";
+    document.getElementById("per-usd").className = "hide-currency";
+    document.getElementById("start-eur").className = "show-currency";
+    document.getElementById("start-usd").className = "hide-currency";
+    document.getElementById("team-eur").className = "show-currency";
+    document.getElementById("team-usd").className = "hide-currency";
+    document.getElementById("corp-eur").className = "show-currency";
+    document.getElementById("corp-usd").className = "hide-currency";
+    document.getElementById("nter-eur").className = "show-currency";
+    document.getElementById("nter-usd").className = "hide-currency";				    				    				
+}
